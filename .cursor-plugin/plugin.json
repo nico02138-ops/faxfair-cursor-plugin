@@ -1,0 +1,26 @@
+{
+  "name": "faxfair",
+  "displayName": "FaxFair",
+  "version": "1.0.0",
+  "description": "Send a fax to a US or Canadian number through FaxFair's hosted MCP server.",
+  "author": {
+    "name": "FaxFair"
+  },
+  "homepage": "https://faxfair.com",
+  "repository": "https://github.com/nico02138-ops/faxfair-cursor-plugin",
+  "license": "MIT",
+  "keywords": ["fax", "send fax", "mcp", "irs fax", "efax"],
+  "logo": "assets/logo.svg",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "FAXFAIR_API_KEY": {
+        "type": "string",
+        "title": "FaxFair API key",
+        "description": "Prepaid FaxFair API key. Secret. Buy one by card ($5 minimum top-up) at https://faxfair.com/docs/api/ and set it in this plugin's configuration. Do not paste it into chat.",
+        "secret": true
+      }
+    },
+    "required": ["FAXFAIR_API_KEY"]
+  }
+}

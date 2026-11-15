@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "faxfair": {
+      "url": "https://api.faxfair.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${FAXFAIR_API_KEY}"
+      }
+    }
+  }
+}
